@@ -1,0 +1,235 @@
+:root{
+  --bg1:#5e584be5;
+    --bg2:rgb(66, 153, 219);
+    --body:rgb(241, 140, 57); 
+    --brand: #f99d34;
+    --white:rgb(20, 19, 20);
+    
+  
+
+}
+
+#banner{
+    min-height:100vh;
+    background: linear-gradient( to right, hsla(0, 3%, 8%, 0.856) , #2c2a0004),
+    url( https://wallpapercave.com/wp/wp6421201.jpg);
+    background-size: cover;
+}
+ .navbar{
+  background: linear-gradient(to bottom, #96a7a2, #3b544b);;
+}
+
+.navbar .nav-link {
+  color: #FFF;
+}
+ .navbar .nav-link:hover {
+  color: var(--brand) !important;
+
+ }
+ .navbar #navbarNav .nav-link.active{
+  color: var(--brand) !important;
+
+}
+.navbar.nav-link:hover{
+  color: var(--brand)!important;
+
+}
+  .navbar-brand img{
+    width:30%;
+  }  
+   .btn{
+    padding:15px 30px;
+    transition: all 0.4s ease;
+    font-weight:800;
+    border-radius: 0;
+   }
+   .btn-brand{
+     background-color: var(--brand);
+
+    }
+
+    .btn-brand:hover {
+        background-color: #393d3c ;
+        color: #febd4c;
+        border-color: var(--brand);
+    }
+    
+    .btn-outline-brand {
+        background-color: transparent;
+        color:var(--brand);
+        border-color: var(--bg1)
+    }
+    
+    .btn-outline-brand:hover {
+        background-color: var(--brand);
+        color:var(--bg1)
+        
+    }
+  section {
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+    /*about*/
+    #about {
+      background-color:#5a635a ;
+      position: relative;
+      z-index: 1;
+
+  }
+  section {
+      padding-top: 100px;
+      padding-bottom: 100px;
+
+  }
+
+  #services {
+    background-color:#3f443f ;
+  
+  }
+
+  .icon-box-img {
+      width: 40%;
+  }
+  
+  .card  {
+      transition: background-color 0.3s, color 0.3s
+      
+  }
+
+  .card:hover {
+    background: linear-gradient(to bottom, #d1e3dd, #90c4b2);
+  }
+
+  .card:hover .card-title
+  .card:hover .card-title
+  .card:hover .btn {
+      color: #d3c4db;
+
+}
+
+#cta {
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to right, hsla(0, 2%,17%, 0.856), rgba(44, 42, 42, 0.315)), 
+  url(https://wallpapercave.com/wp/wp6421201.jpg);
+  min-height: 100vh;
+}
+
+.testimonials {
+  padding: 30px;
+  background-color: rgb(240, 234, 234);
+  border: 1px;
+}
+
+.testimonials img {
+  width: 65px;
+  border-radius: 100px;
+  height: 65px;
+}  
+#reviews {
+  background-color: #393d3c ;
+
+}
+#reviews a {
+  text-decoration: none;
+  color: var(--bg2);
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: auto;
+}
+  .accordion-items{
+    margin-bottom: 20px; /*Add margin botton for spacing*/
+    border-radius: 0 !important;
+  }
+    .accordion-button{
+      background-color: #e6f1e8;
+      border: none;
+      border-bottom: 1px solid #8389bc;
+      border-radius: 0;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #141415;
+      cursor: pointer;
+      background: #7caee0;
+    }
+
+    .accordion-body{
+      border-left: 3px solid var(--brand);
+      padding: 10px 15px;
+      margin-left: 0;
+      background-color: rgb(240, 234, 234);
+  
+}
+    .faq-answer p{
+      margin-bottom: 0;
+    }
+
+    .accordion-button:focus{
+      box-shadow: none;
+    
+    }
+
+    .accordion-button:not(.collapsed) {
+      color:var(--bg1);
+    }
+    /*Hover effect for FAQ question*/
+    .accordion-button:hover{
+      background-color: var(--brand); /*Cjange Backrgound color on  hover */
+      color: var(--bg1) /*Plus icon */
+
+    }
+    /*Adjust accpordion icon*/
+    .accordion-button::after{
+      font-family: "Font Awesome 5 Free";
+      content: ""; /* Plus icon*/
+      float: right;
+      font-weight: 900;
+      margin-left: auto;
+    }
+
+    .accordion-button[aria-expanded="true"]::after{
+      content: ""; /*Minus icon */
+    
+    }
+  /* Footer */ 
+  #footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: var(--bg1);
+  }
+  
+  #footer ul.list-unstyled li a {
+      color: #ffffff;
+  } 
+  
+  #footer ul.list-unstyled li:hover a {
+      color: var(--bg1);
+  }
+    
+     #reviews h2, #services h2{
+      color: var(--bg1);    
+     
+  }
+
+    .btn-outline-light{
+      border-color: #1ddf8b !important;
+      color: #F2B03B;
+  
+  }
+     .navbar-brand_footer.img{
+       width: 40% !important;
+  }
+     #faq{
+      background-color:#5a635a ;
+
+  }
+  a{
+    text-decoration: none;
+  }
